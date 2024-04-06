@@ -20,25 +20,15 @@ h1{
     font-style: normal; 
     font-size: 3.7rem;
 }
-
-/* .input input[type="text"] {
-    width: 70%; 
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #007BFF;
-    border-radius: 18px;
-    background-color: #f8f9fa; 
-    font-size: 16px; 
-    color: #495057; 
-  }
-  
-.input input[type="text"]:focus {
-    border-color: #66afe9; 
-    outline: none; 
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  } */
-  
+#add{
+    background-color: #235560;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
 
   .input input[type="text"] {
     width: 70%; 
@@ -49,7 +39,7 @@ h1{
     border-radius: 18px;
     background-color: #f8f9fa; 
     font-size: 16px; 
-    color: #495057; 
+    color: #495057;
   }
 
   .input input[type="text"]:focus {
@@ -62,19 +52,39 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #f4f2f2;
     border-radius: 5px;
     padding: 12px;
     margin-top: 15px;
 }
-
+.task-item p {
+    margin: 0;
+    color: #1A4650;
+}
 .task-item:hover {
-    background-color: #3d7d8b;
+    background-color: #579baa;
     color: white;
 }
 
 .delete-btn {
     cursor: pointer;
     color: #1A4650;
+}
+
+.footer {
+    background-color: #1A4650;
+    color: rgb(197, 194, 194);
+    padding: 0.1px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: rgb(69, 156, 191);
+    text-decoration: none;
 }
 
