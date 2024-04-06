@@ -20,6 +20,20 @@ h1{
     font-style: normal; 
     font-size: 3.7rem;
 }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    color: #1A4650;
+}
 #add{
     background-color: #235560;
     color: white;
@@ -88,3 +102,25 @@ h1{
     text-decoration: none;
 }
 
+@media screen and (max-width: 525px) {
+    .header {
+        flex-direction: column;
+        
+    }
+    .logo{
+        display: none;
+    }
+    h1{
+        font-size: 2.5rem;
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    
+}
