@@ -1,17 +1,17 @@
 
 html{
-    background-color: #1A3D3B;
+    background-color: #1A4650;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
     background-color:white ;
-    color: #1A3D3B;
+    color: #1A4650;
     text-align: center;
     width: 50%;
     margin: 0 auto;
     padding: 8px;
     border-radius: 10px;
-
 }
 
 h1{
@@ -20,3 +20,61 @@ h1{
     font-style: normal; 
     font-size: 3.7rem;
 }
+
+/* .input input[type="text"] {
+    width: 70%; 
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #007BFF;
+    border-radius: 18px;
+    background-color: #f8f9fa; 
+    font-size: 16px; 
+    color: #495057; 
+  }
+  
+.input input[type="text"]:focus {
+    border-color: #66afe9; 
+    outline: none; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  } */
+  
+
+  .input input[type="text"] {
+    width: 70%; 
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #1A4650;
+    border-radius: 18px;
+    background-color: #f8f9fa; 
+    font-size: 16px; 
+    color: #495057; 
+  }
+
+  .input input[type="text"]:focus {
+    border-color: #3A9FB6; 
+    outline: none; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.task-item:hover {
+    background-color: #3d7d8b;
+    color: white;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #1A4650;
+}
+
