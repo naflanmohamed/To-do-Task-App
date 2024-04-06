@@ -1,4 +1,5 @@
 
+
 document.getElementById('add').addEventListener('click', function() {
     const taskTitle = document.getElementById('taskTitle').value;
     const taskDescription = document.getElementById('taskDescription').value;
@@ -7,7 +8,7 @@ document.getElementById('add').addEventListener('click', function() {
         const taskItem = document.createElement('div');
         taskItem.classList.add('task-item');
         
-        taskItem.innerHTML = `<p><strong>Title:</strong> ${taskTitle} <br> <strong>Description:</strong> ${taskDescription}</p>`;
+        taskItem.innerHTML = `<p><strong>Title: </strong> ${taskTitle} <br> <strong>Description: </strong> ${taskDescription}</p>`;
         
         const deleteBtn = document.createElement('i');
         deleteBtn.classList.add('fa-solid', 'fa-trash-can', 'delete-btn');
